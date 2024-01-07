@@ -40,9 +40,9 @@ struct SignInView: View {
                 .padding(.bottom, 20)
             
             VStack(spacing: 30) {
-                SignInInput(text: "Username", isEmailField: true, value: $username)
+                SignInInput(text: "usuario", isEmailField: true, value: $username)
                 
-                SignInInput(text: "Password", isEmailField: false, value: $password)
+                SignInInput(text: "contraseña", isEmailField: false, value: $password)
                 
                 Button(action: {
                     let credentials = SignInPayload(username: username, password: password)
@@ -61,8 +61,9 @@ struct SignInView: View {
                 
             }
             .padding(.horizontal, 20)
-        
+            
             Spacer()
+        
         }
         .overlay {
             if viewModel.isloading {

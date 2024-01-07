@@ -38,6 +38,17 @@ class SignInViewController: UIViewController {
             self.presentErrorModal(with: errorMessage)
         }
         .store(in: &cancellables)
+        
+        viewModel.successfulSignInSubject.sink {
+            var sceneDelegate: SceneDelegate? {
+                guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                    let delegate = windowScene.delegate as? SceneDelegate else { return nil }
+                 return delegate
+            }
+            
+            sceneDelegate?.window?.rootViewController = EduTaskerTabBarController()
+        }
+        .store(in: &cancellables)
     }
 }
 

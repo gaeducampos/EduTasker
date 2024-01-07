@@ -7,6 +7,7 @@ final class SignInViewModel: ObservableObject {
     @Published var isloading = false
     
     let errorModalSubject = PassthroughSubject<Void, Never>()
+    let successfulSignInSubject = PassthroughSubject<Void, Never>()
     
     
     init(service: SignInService) {
@@ -30,6 +31,7 @@ final class SignInViewModel: ObservableObject {
                 print("RESPONSE \(studentInfo)")
                 UserDefaults.standard.set(studentInfo, forKey: NetworkProvider.studentInfo)
                 self.isloading = false
+                self.successfulSignInSubject.send()
             })
     }
 }

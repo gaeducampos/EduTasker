@@ -13,19 +13,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // 1.
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        // 2.
+
         let window = UIWindow(windowScene: windowScene)
         
-        // 3.
-        window.rootViewController = UINavigationController(rootViewController: SignInViewController())
-
-        // 4.
+        if UserDefaults.standard.auth(forKey: NetworkProvider.studentInfo) != nil {
+            window.rootViewController = EduTaskerTabBarController()
+        } else {
+            window.rootViewController = UINavigationController(rootViewController: SignInViewController())
+        }
+    
         window.makeKeyAndVisible()
 
-        // 5.
         self.window = window
     }
 

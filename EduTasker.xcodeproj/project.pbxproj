@@ -27,6 +27,9 @@
 		4B857CF82B4B19D200E2D916 /* ErrorModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */; };
 		4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */; };
 		4B857D012B4B220000E2D916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D002B4B220000E2D916 /* ViewController.swift */; };
+		4B857D032B4B2BD900E2D916 /* EduTaskerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */; };
+		4B857D052B4B2CEA00E2D916 /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */; };
+		4B857D082B4B450700E2D916 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 4B857D072B4B450700E2D916 /* JWTDecode */; };
 		4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA32B2B59E700041786 /* AppDelegate.swift */; };
 		4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */; };
 		4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* SignInViewController.swift */; };
@@ -75,6 +78,8 @@
 		4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalView.swift; sourceTree = "<group>"; };
 		4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalViewController.swift; sourceTree = "<group>"; };
 		4B857D002B4B220000E2D916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTaskerTabBarController.swift; sourceTree = "<group>"; };
+		4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
 		4BBB4EA02B2B59E700041786 /* EduTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBB4EA32B2B59E700041786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B857D082B4B450700E2D916 /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				4BBB4EA72B2B59E700041786 /* SignInViewController.swift */,
+				4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */,
+				4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -320,6 +328,9 @@
 			dependencies = (
 			);
 			name = EduTasker;
+			packageProductDependencies = (
+				4B857D072B4B450700E2D916 /* JWTDecode */,
+			);
 			productName = EduTasker;
 			productReference = 4BBB4EA02B2B59E700041786 /* EduTasker.app */;
 			productType = "com.apple.product-type.application";
@@ -392,6 +403,9 @@
 				Base,
 			);
 			mainGroup = 4BBB4E972B2B59E600041786;
+			packageReferences = (
+				4B857D062B4B450700E2D916 /* XCRemoteSwiftPackageReference "JWTDecode" */,
+			);
 			productRefGroup = 4BBB4EA12B2B59E700041786 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +450,7 @@
 			files = (
 				4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */,
 				4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */,
+				4B857D032B4B2BD900E2D916 /* EduTaskerTabBarController.swift in Sources */,
 				4B4DDBBD2B4A656000E4B191 /* MoodleSingIn.swift in Sources */,
 				4B857CF32B4B0FF900E2D916 /* Assests.swift in Sources */,
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
@@ -452,6 +467,7 @@
 				4B4DDBC52B4A750B00E4B191 /* UserDefaults.swift in Sources */,
 				4B4DDBBB2B4A651800E4B191 /* SignInPayload.swift in Sources */,
 				4B4DDBB42B4A635F00E4B191 /* SignInService.swift in Sources */,
+				4B857D052B4B2CEA00E2D916 /* GradeViewController.swift in Sources */,
 				4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */,
 				4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */,
 				4B4DDBC12B4A697A00E4B191 /* UFGStudentInfo.swift in Sources */,
@@ -795,6 +811,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B857D062B4B450700E2D916 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B857D072B4B450700E2D916 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B857D062B4B450700E2D916 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BBB4E982B2B59E600041786 /* Project object */;
 }

@@ -3,4 +3,70 @@
    uuid = "8D44BA9F-DD31-4E36-8341-F66CAB154A01"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D395FEE7-9E6C-4F07-921F-3B982A14C773"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EduTasker/Extension/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "presentSessionExperiendAlert()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50B8CBB7-258D-476C-99BA-4F27826B967D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EduTasker/Extension/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "presentSessionExperiendAlert()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50B8CBB7-258D-476C-99BA-4F27826B967D - acecb14e94425517"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.presentSessionExperiendAlert() -&gt; ()"
+                  moduleName = "EduTasker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcampos/Desktop/projects/EduTasker/EduTasker/Extension/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1041">
+               </Location>
+               <Location
+                  uuid = "50B8CBB7-258D-476C-99BA-4F27826B967D - acecb14e94425576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.presentSessionExperiendAlert() -&gt; ()"
+                  moduleName = "EduTasker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcampos/Desktop/projects/EduTasker/EduTasker/Extension/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

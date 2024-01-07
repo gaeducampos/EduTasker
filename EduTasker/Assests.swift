@@ -11,6 +11,7 @@ enum Assests {
         case appIconNoBg = "AppIconNoBg"
         case errorIcon = "ErrorIcon"
         case closeIcon = "CloseIcon"
+        case appWordIcon = "EduTaskerWordIcon"
     }
 }
 
