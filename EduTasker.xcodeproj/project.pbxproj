@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBA52B4A51C300E4B191 /* NetworkProvider.swift */; };
+		4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBAA2B4A588900E4B191 /* UFGEndpoint.swift */; };
+		4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBAD2B4A5C8500E4B191 /* MoodleEndpoint.swift */; };
+		4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBB02B4A61D200E4B191 /* URL.swift */; };
 		4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA32B2B59E700041786 /* AppDelegate.swift */; };
 		4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */; };
 		4BBB4EA82B2B59E700041786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		4B4DDBA52B4A51C300E4B191 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		4B4DDBAA2B4A588900E4B191 /* UFGEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGEndpoint.swift; sourceTree = "<group>"; };
+		4B4DDBAD2B4A5C8500E4B191 /* MoodleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleEndpoint.swift; sourceTree = "<group>"; };
+		4B4DDBB02B4A61D200E4B191 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		4BBB4EA02B2B59E700041786 /* EduTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBB4EA32B2B59E700041786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 		4B4DDBA42B4A519C00E4B191 /* Network  */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DDBAC2B4A5C6D00E4B191 /* API */,
 				4B4DDBA52B4A51C300E4B191 /* NetworkProvider.swift */,
 			);
 			path = "Network ";
@@ -105,6 +112,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		4B4DDBAC2B4A5C6D00E4B191 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBAA2B4A588900E4B191 /* UFGEndpoint.swift */,
+				4B4DDBAD2B4A5C8500E4B191 /* MoodleEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4B4DDBAF2B4A61C200E4B191 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBB02B4A61D200E4B191 /* URL.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4BBB4E972B2B59E600041786 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +152,7 @@
 		4BBB4EA22B2B59E700041786 /* EduTasker */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DDBAF2B4A61C200E4B191 /* Extension */,
 				4B4DDBA92B4A57DD00E4B191 /* ViewModel */,
 				4B4DDBA82B4A57D600E4B191 /* Views */,
 				4B4DDBA72B4A57CF00E4B191 /* Controllers */,
@@ -289,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */,
 				4BBB4EA82B2B59E700041786 /* ViewController.swift in Sources */,
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
+				4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */,
 				4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */,
 				4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */,
+				4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
