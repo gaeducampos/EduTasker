@@ -7,7 +7,7 @@ struct TextFieldRepresentable: UIViewRepresentable {
         let textField = UITextField()
         textField.delegate = context.coordinator
         textField.text = text
-        textField.placeholder = "ex: jon.smith@email.com"
+        textField.placeholder = " ex: ia.gabo748"
         textField.font = UIFont(name: "Arial", size: 13)
         textField.adjustsFontSizeToFitWidth = true
         textField.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
@@ -26,8 +26,6 @@ struct TextFieldRepresentable: UIViewRepresentable {
 
     func updateUIView(_ uiView: UITextField, context: UIViewRepresentableContext<TextFieldRepresentable>) {
         uiView.text = text
-//        uiView.setContentHuggingPriority(.defaultHigh, for: .vertical)
-//        uiView.setContentCompressionResistancePriority(.required, for: .vertical)
     }
     
     

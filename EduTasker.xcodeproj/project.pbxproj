@@ -22,6 +22,11 @@
 		4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */; };
 		4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */; };
 		4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */; };
+		4B857CF32B4B0FF900E2D916 /* Assests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF22B4B0FF900E2D916 /* Assests.swift */; };
+		4B857CF52B4B151000E2D916 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF42B4B151000E2D916 /* HostingController.swift */; };
+		4B857CF82B4B19D200E2D916 /* ErrorModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */; };
+		4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */; };
+		4B857D012B4B220000E2D916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D002B4B220000E2D916 /* ViewController.swift */; };
 		4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA32B2B59E700041786 /* AppDelegate.swift */; };
 		4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */; };
 		4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* SignInViewController.swift */; };
@@ -65,6 +70,11 @@
 		4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
 		4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4B857CF22B4B0FF900E2D916 /* Assests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assests.swift; sourceTree = "<group>"; };
+		4B857CF42B4B151000E2D916 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalView.swift; sourceTree = "<group>"; };
+		4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalViewController.swift; sourceTree = "<group>"; };
+		4B857D002B4B220000E2D916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BBB4EA02B2B59E700041786 /* EduTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBB4EA32B2B59E700041786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +126,7 @@
 		4B4DDBA72B4A57CF00E4B191 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4BBB4EA72B2B59E700041786 /* SignInViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +162,8 @@
 			children = (
 				4B4DDBB02B4A61D200E4B191 /* URL.swift */,
 				4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */,
+				4B857CF42B4B151000E2D916 /* HostingController.swift */,
+				4B857D002B4B220000E2D916 /* ViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -194,10 +207,43 @@
 		4B4DDBC82B4A772D00E4B191 /* Auxiliary */ = {
 			isa = PBXGroup;
 			children = (
+				4B857CF62B4B19A300E2D916 /* Modal */,
 				4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */,
 				4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */,
 			);
 			path = Auxiliary;
+			sourceTree = "<group>";
+		};
+		4B857CF12B4B0FE300E2D916 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B857CF62B4B19A300E2D916 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				4B857CFA2B4B1E4800E2D916 /* ViewController */,
+				4B857CF92B4B1E1100E2D916 /* View */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		4B857CF92B4B1E1100E2D916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B857CFA2B4B1E4800E2D916 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		4BBB4E972B2B59E600041786 = {
@@ -223,16 +269,17 @@
 		4BBB4EA22B2B59E700041786 /* EduTasker */ = {
 			isa = PBXGroup;
 			children = (
+				4B857CF22B4B0FF900E2D916 /* Assests.swift */,
+				4B4DDBAF2B4A61C200E4B191 /* Extension */,
+				4B857CF12B4B0FE300E2D916 /* Shared */,
 				4B4DDBB52B4A638E00E4B191 /* Model */,
 				4B4DDBB22B4A632F00E4B191 /* Service */,
-				4B4DDBAF2B4A61C200E4B191 /* Extension */,
 				4B4DDBA92B4A57DD00E4B191 /* ViewModel */,
 				4B4DDBA82B4A57D600E4B191 /* Views */,
 				4B4DDBA72B4A57CF00E4B191 /* Controllers */,
 				4B4DDBA42B4A519C00E4B191 /* Network  */,
 				4BBB4EA32B2B59E700041786 /* AppDelegate.swift */,
 				4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */,
-				4BBB4EA72B2B59E700041786 /* SignInViewController.swift */,
 				4BBB4EAC2B2B59E900041786 /* Assets.xcassets */,
 				4BBB4EAE2B2B59E900041786 /* LaunchScreen.storyboard */,
 				4BBB4EB12B2B59E900041786 /* Info.plist */,
@@ -390,12 +437,16 @@
 				4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */,
 				4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */,
 				4B4DDBBD2B4A656000E4B191 /* MoodleSingIn.swift in Sources */,
+				4B857CF32B4B0FF900E2D916 /* Assests.swift in Sources */,
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
+				4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */,
 				4B4DDBB72B4A63BC00E4B191 /* UFGSessionInfo.swift in Sources */,
+				4B857D012B4B220000E2D916 /* ViewController.swift in Sources */,
 				4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */,
 				4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */,
 				4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */,
 				4B4DDBC32B4A72A400E4B191 /* SignInViewModel.swift in Sources */,
+				4B857CF52B4B151000E2D916 /* HostingController.swift in Sources */,
 				4B4DDBBF2B4A65B800E4B191 /* Student.swift in Sources */,
 				4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */,
 				4B4DDBC52B4A750B00E4B191 /* UserDefaults.swift in Sources */,
@@ -405,6 +456,7 @@
 				4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */,
 				4B4DDBC12B4A697A00E4B191 /* UFGStudentInfo.swift in Sources */,
 				4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */,
+				4B857CF82B4B19D200E2D916 /* ErrorModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +636,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,6 +664,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

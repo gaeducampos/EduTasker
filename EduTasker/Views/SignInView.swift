@@ -6,13 +6,23 @@ struct SignInView: View {
     @State private var password = ""
     var body: some View {
         VStack {
-            Text("Sign in your account")
+            Text("Welcome to EduTasker")
+                .font(.custom("Arial", size: 27))
+                .fontWeight(.semibold)
+                .padding(.bottom, 20)
+            
+            Image(Assests.Image.appIconNoBg.rawValue)
+                .resizable()
+                .frame(width: 200, height: 200)
+                .scaledToFit()
+            
+            Text("Sign in with your account")
                 .font(.custom("Arial", size: 27))
                 .fontWeight(.semibold)
                 .padding(.bottom, 20)
             
             VStack(spacing: 30) {
-                SignInInput(text: "Email", isEmailField: true, value: $username)
+                SignInInput(text: "Username", isEmailField: true, value: $username)
                 
                 SignInInput(text: "Password", isEmailField: false, value: $password)
                 
@@ -28,6 +38,7 @@ struct SignInView: View {
                                 .foregroundStyle(.white)
                         }
                 })
+                .disabled(username.isEmpty || password.isEmpty)
                 
             }
             .padding(.horizontal, 20)
