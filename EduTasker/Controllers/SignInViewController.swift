@@ -34,7 +34,7 @@ class SignInViewController: UIViewController {
     
     private func bindings() {
         viewModel.errorModalSubject.sink {
-            let errorMessage = "Lo sentimos intenta algo salio mal. Intenta de nuevo."
+            let errorMessage = "Lo sentimos algo salio mal. Intenta de nuevo."
             self.presentErrorModal(with: errorMessage)
         }
         .store(in: &cancellables)

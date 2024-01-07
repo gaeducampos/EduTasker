@@ -4,6 +4,7 @@ enum Assests {
     enum Color: String {
         case appThemeColor = "AppThemeColor"
         case loaderColor = "LoaderColor"
+        case darkTextColor = "DarkAppThemeTextColor"
     }
     
     enum Image: String {

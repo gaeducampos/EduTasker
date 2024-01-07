@@ -4,9 +4,26 @@ struct SignInView: View {
     @StateObject var viewModel: SignInViewModel
     @State private var username = ""
     @State private var password = ""
+    
+    private func setupSignBackgroundButtonColor() -> Color {
+        if username.isEmpty || password.isEmpty {
+            return .gray.opacity(0.5)
+        } else {
+            return Color(Assests.Color.appThemeColor.rawValue)
+        }
+    }
+    
+    private func setupSignTextButtonColor() -> Color {
+        if username.isEmpty || password.isEmpty {
+            return .black
+        } else {
+            return Color(Assests.Color.darkTextColor.rawValue)
+        }
+    }
+    
     var body: some View {
         VStack {
-            Text("Welcome to EduTasker")
+            Text("Bienvenido a EduTasker")
                 .font(.custom("Arial", size: 27))
                 .fontWeight(.semibold)
                 .padding(.bottom, 20)
@@ -16,9 +33,10 @@ struct SignInView: View {
                 .frame(width: 200, height: 200)
                 .scaledToFit()
             
-            Text("Sign in with your account")
+            Text("Inicia Sesión con tu cuenta UFG")
                 .font(.custom("Arial", size: 27))
                 .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
                 .padding(.bottom, 20)
             
             VStack(spacing: 30) {
@@ -31,11 +49,12 @@ struct SignInView: View {
                     viewModel.performSingIn(with: credentials)
                 }, label: {
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(Color.green)
+                        .fill(setupSignBackgroundButtonColor())
                         .frame(height: 40)
                         .overlay {
                             Text("SING IN")
-                                .foregroundStyle(.white)
+                                .fontWeight(.semibold)
+                                .foregroundStyle(setupSignTextButtonColor())
                         }
                 })
                 .disabled(username.isEmpty || password.isEmpty)
