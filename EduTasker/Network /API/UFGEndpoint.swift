@@ -11,11 +11,11 @@ enum UFGEndpoint {
         case .singIn:
             return "auth/portal-estudiante/login"
         case .semester:
-            return "/api/ciclo"
+            return "api/ciclo"
         case .userInfo:
-            return "/auth/portal-estudiante/user/me"
+            return "auth/portal-estudiante/user/me"
         case .grades:
-            return "https://ra.ufg.edu.sv/api/estudiantes/notas/"
+            return "https://ra.ufg.edu.sv/api/estudiantes/notas"
         }
     }
     
@@ -23,6 +23,6 @@ enum UFGEndpoint {
         return URL(string: "\(Self.baseURL)\(subpath)")!
     }
     
-    private static var baseURL = "https://estudiantes.ufg.edu.sv"
+    private static var baseURL = "https://estudiantes.ufg.edu.sv/"
     
 }

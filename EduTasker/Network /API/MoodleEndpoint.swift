@@ -1,13 +1,13 @@
 import Foundation
 
 enum MoodleEndpoint {
-    case token
+    case signIn
     case subjectResources(wsfunction: String = "mod_resource_get_resources_by_courses")
     case homeworks(wsfunction: String = "core_calendar_get_calendar_upcoming_view")
     
     var subpath: URL {
         switch self {
-        case .token:
+        case .signIn:
             return URL(string: "login/token.php")!
         case .subjectResources(let wsfunction):
             return URL(string: "webservice/rest/server.php")!.appendPath(value: "\(wsfunction)", name: "wsfunction")

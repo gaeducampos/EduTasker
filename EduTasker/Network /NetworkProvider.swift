@@ -2,6 +2,8 @@ import Foundation
 import Combine
 
 struct NetworkProvider {
+    static var studentInfo = "Student"
+    
     enum ErrorHandler: Error {
         case failedRequest(statusCode: Int)
         case unexpectedResponseType
@@ -21,6 +23,7 @@ struct NetworkProvider {
     ) -> AnyPublisher<Data?, Error> {
         URLSession.shared.dataTaskPublisher(for: request)
             .tryMap { (data: Data, response: URLResponse) in
+                
                 guard let response = response as? HTTPURLResponse else {
                     throw ErrorHandler.unexpectedResponseType
                 }

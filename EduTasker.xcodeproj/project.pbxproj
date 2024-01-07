@@ -11,9 +11,20 @@
 		4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBAA2B4A588900E4B191 /* UFGEndpoint.swift */; };
 		4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBAD2B4A5C8500E4B191 /* MoodleEndpoint.swift */; };
 		4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBB02B4A61D200E4B191 /* URL.swift */; };
+		4B4DDBB42B4A635F00E4B191 /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBB32B4A635F00E4B191 /* SignInService.swift */; };
+		4B4DDBB72B4A63BC00E4B191 /* UFGSessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBB62B4A63BC00E4B191 /* UFGSessionInfo.swift */; };
+		4B4DDBBB2B4A651800E4B191 /* SignInPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBBA2B4A651800E4B191 /* SignInPayload.swift */; };
+		4B4DDBBD2B4A656000E4B191 /* MoodleSingIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBBC2B4A656000E4B191 /* MoodleSingIn.swift */; };
+		4B4DDBBF2B4A65B800E4B191 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBBE2B4A65B800E4B191 /* Student.swift */; };
+		4B4DDBC12B4A697A00E4B191 /* UFGStudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC02B4A697A00E4B191 /* UFGStudentInfo.swift */; };
+		4B4DDBC32B4A72A400E4B191 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC22B4A72A400E4B191 /* SignInViewModel.swift */; };
+		4B4DDBC52B4A750B00E4B191 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */; };
+		4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */; };
+		4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */; };
+		4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */; };
 		4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA32B2B59E700041786 /* AppDelegate.swift */; };
 		4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */; };
-		4BBB4EA82B2B59E700041786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* ViewController.swift */; };
+		4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* SignInViewController.swift */; };
 		4BBB4EAD2B2B59E900041786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB4EAC2B2B59E900041786 /* Assets.xcassets */; };
 		4BBB4EB02B2B59E900041786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB4EAE2B2B59E900041786 /* LaunchScreen.storyboard */; };
 		4BBB4EBB2B2B59E900041786 /* EduTaskerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EBA2B2B59E900041786 /* EduTaskerTests.swift */; };
@@ -43,10 +54,21 @@
 		4B4DDBAA2B4A588900E4B191 /* UFGEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGEndpoint.swift; sourceTree = "<group>"; };
 		4B4DDBAD2B4A5C8500E4B191 /* MoodleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleEndpoint.swift; sourceTree = "<group>"; };
 		4B4DDBB02B4A61D200E4B191 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		4B4DDBB32B4A635F00E4B191 /* SignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
+		4B4DDBB62B4A63BC00E4B191 /* UFGSessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGSessionInfo.swift; sourceTree = "<group>"; };
+		4B4DDBBA2B4A651800E4B191 /* SignInPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPayload.swift; sourceTree = "<group>"; };
+		4B4DDBBC2B4A656000E4B191 /* MoodleSingIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleSingIn.swift; sourceTree = "<group>"; };
+		4B4DDBBE2B4A65B800E4B191 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4B4DDBC02B4A697A00E4B191 /* UFGStudentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGStudentInfo.swift; sourceTree = "<group>"; };
+		4B4DDBC22B4A72A400E4B191 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
+		4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		4BBB4EA02B2B59E700041786 /* EduTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBB4EA32B2B59E700041786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BBB4EA72B2B59E700041786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BBB4EA72B2B59E700041786 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4BBB4EAC2B2B59E900041786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBB4EAF2B2B59E900041786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BBB4EB12B2B59E900041786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +123,8 @@
 		4B4DDBA82B4A57D600E4B191 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DDBC82B4A772D00E4B191 /* Auxiliary */,
+				4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +132,7 @@
 		4B4DDBA92B4A57DD00E4B191 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DDBC22B4A72A400E4B191 /* SignInViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,8 +150,54 @@
 			isa = PBXGroup;
 			children = (
 				4B4DDBB02B4A61D200E4B191 /* URL.swift */,
+				4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4B4DDBB22B4A632F00E4B191 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBB32B4A635F00E4B191 /* SignInService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B4DDBB52B4A638E00E4B191 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBBE2B4A65B800E4B191 /* Student.swift */,
+				4B4DDBBA2B4A651800E4B191 /* SignInPayload.swift */,
+				4B4DDBB92B4A63C800E4B191 /* Moodle */,
+				4B4DDBB82B4A63C000E4B191 /* UFG */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B4DDBB82B4A63C000E4B191 /* UFG */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBB62B4A63BC00E4B191 /* UFGSessionInfo.swift */,
+				4B4DDBC02B4A697A00E4B191 /* UFGStudentInfo.swift */,
+			);
+			path = UFG;
+			sourceTree = "<group>";
+		};
+		4B4DDBB92B4A63C800E4B191 /* Moodle */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBBC2B4A656000E4B191 /* MoodleSingIn.swift */,
+			);
+			path = Moodle;
+			sourceTree = "<group>";
+		};
+		4B4DDBC82B4A772D00E4B191 /* Auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */,
+				4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */,
+			);
+			path = Auxiliary;
 			sourceTree = "<group>";
 		};
 		4BBB4E972B2B59E600041786 = {
@@ -152,6 +223,8 @@
 		4BBB4EA22B2B59E700041786 /* EduTasker */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DDBB52B4A638E00E4B191 /* Model */,
+				4B4DDBB22B4A632F00E4B191 /* Service */,
 				4B4DDBAF2B4A61C200E4B191 /* Extension */,
 				4B4DDBA92B4A57DD00E4B191 /* ViewModel */,
 				4B4DDBA82B4A57D600E4B191 /* Views */,
@@ -159,7 +232,7 @@
 				4B4DDBA42B4A519C00E4B191 /* Network  */,
 				4BBB4EA32B2B59E700041786 /* AppDelegate.swift */,
 				4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */,
-				4BBB4EA72B2B59E700041786 /* ViewController.swift */,
+				4BBB4EA72B2B59E700041786 /* SignInViewController.swift */,
 				4BBB4EAC2B2B59E900041786 /* Assets.xcassets */,
 				4BBB4EAE2B2B59E900041786 /* LaunchScreen.storyboard */,
 				4BBB4EB12B2B59E900041786 /* Info.plist */,
@@ -315,12 +388,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */,
-				4BBB4EA82B2B59E700041786 /* ViewController.swift in Sources */,
+				4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */,
+				4B4DDBBD2B4A656000E4B191 /* MoodleSingIn.swift in Sources */,
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
+				4B4DDBB72B4A63BC00E4B191 /* UFGSessionInfo.swift in Sources */,
 				4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */,
 				4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */,
 				4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */,
+				4B4DDBC32B4A72A400E4B191 /* SignInViewModel.swift in Sources */,
+				4B4DDBBF2B4A65B800E4B191 /* Student.swift in Sources */,
 				4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */,
+				4B4DDBC52B4A750B00E4B191 /* UserDefaults.swift in Sources */,
+				4B4DDBBB2B4A651800E4B191 /* SignInPayload.swift in Sources */,
+				4B4DDBB42B4A635F00E4B191 /* SignInService.swift in Sources */,
+				4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */,
+				4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */,
+				4B4DDBC12B4A697A00E4B191 /* UFGStudentInfo.swift in Sources */,
+				4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
