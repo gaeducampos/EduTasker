@@ -13,6 +13,11 @@ class EduTaskerTabBarController: UITabBarController {
         return tabItem
     }()
     
+    lazy var profileTabBarItem: UITabBarItem = {
+        let tabItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 0)
+        return tabItem
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBar.backgroundColor = .white
@@ -24,7 +29,10 @@ class EduTaskerTabBarController: UITabBarController {
         let gradeViewController = GradeViewController()
         gradeViewController.tabBarItem = gradeTabBarItem
         
-        self.viewControllers =  [gradeViewController]
+        let profileViewController = ProfileViewController()
+        profileViewController.tabBarItem = profileTabBarItem
+        
+        self.viewControllers =  [gradeViewController, profileViewController]
     }
     
 }

@@ -59,6 +59,8 @@ struct SignInService {
                 performMoodleSingIn(with: credentials)
                     .compactMap { moodleSession -> Student in
                         return Student(
+                            username: studenInfo.user.username,
+                            name: studenInfo.user.nombre,
                             studentId: studenInfo.user.carnet,
                             moodleToken: moodleSession.token,
                             ufgToken: studenInfo.sessionInfo?.accessToken ?? "",

@@ -5,6 +5,8 @@ struct UFGStudentInfo: Decodable {
     let sessionInfo: UFGSessionInfo?
 
     struct User: Decodable {
+        let username: String
+        let nombre: String
         let carnet: String
     }
 }

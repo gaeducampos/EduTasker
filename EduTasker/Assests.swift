@@ -12,6 +12,9 @@ enum Assests {
         case errorIcon = "ErrorIcon"
         case closeIcon = "CloseIcon"
         case appWordIcon = "EduTaskerWordIcon"
+        case studentIcon = "StudentIcon"
+        case subjectIcon = "SubjectIcon"
+        case teacher = "TeacherIcon"
     }
 }
 

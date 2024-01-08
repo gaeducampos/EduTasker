@@ -30,6 +30,17 @@
 		4B857D032B4B2BD900E2D916 /* EduTaskerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */; };
 		4B857D052B4B2CEA00E2D916 /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */; };
 		4B857D082B4B450700E2D916 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 4B857D072B4B450700E2D916 /* JWTDecode */; };
+		4B857D0A2B4B51E300E2D916 /* UFGCiclo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D092B4B51E300E2D916 /* UFGCiclo.swift */; };
+		4B857D0C2B4B527800E2D916 /* GradeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D0B2B4B527800E2D916 /* GradeService.swift */; };
+		4B857D0E2B4B564300E2D916 /* UFGStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D0D2B4B564300E2D916 /* UFGStudent.swift */; };
+		4B857D102B4B651B00E2D916 /* GradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D0F2B4B651B00E2D916 /* GradeViewModel.swift */; };
+		4B857D122B4B66A300E2D916 /* UFGCum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D112B4B66A300E2D916 /* UFGCum.swift */; };
+		4B857D162B4B6CC800E2D916 /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D152B4B6CC800E2D916 /* GradeView.swift */; };
+		4B857D182B4B7F7F00E2D916 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D172B4B7F7F00E2D916 /* Double.swift */; };
+		4B857D1A2B4B86FC00E2D916 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D192B4B86FC00E2D916 /* ProfileViewController.swift */; };
+		4B857D1C2B4B871700E2D916 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D1B2B4B871700E2D916 /* ProfileView.swift */; };
+		4B857D222B4C936200E2D916 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D212B4C936200E2D916 /* SubjectViewController.swift */; };
+		4B857D242B4C93DB00E2D916 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D232B4C93DB00E2D916 /* SubjectView.swift */; };
 		4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA32B2B59E700041786 /* AppDelegate.swift */; };
 		4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */; };
 		4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB4EA72B2B59E700041786 /* SignInViewController.swift */; };
@@ -80,6 +91,17 @@
 		4B857D002B4B220000E2D916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTaskerTabBarController.swift; sourceTree = "<group>"; };
 		4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
+		4B857D092B4B51E300E2D916 /* UFGCiclo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGCiclo.swift; sourceTree = "<group>"; };
+		4B857D0B2B4B527800E2D916 /* GradeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeService.swift; sourceTree = "<group>"; };
+		4B857D0D2B4B564300E2D916 /* UFGStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGStudent.swift; sourceTree = "<group>"; };
+		4B857D0F2B4B651B00E2D916 /* GradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewModel.swift; sourceTree = "<group>"; };
+		4B857D112B4B66A300E2D916 /* UFGCum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFGCum.swift; sourceTree = "<group>"; };
+		4B857D152B4B6CC800E2D916 /* GradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
+		4B857D172B4B7F7F00E2D916 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4B857D192B4B86FC00E2D916 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4B857D1B2B4B871700E2D916 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4B857D212B4C936200E2D916 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		4B857D232B4C93DB00E2D916 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
 		4BBB4EA02B2B59E700041786 /* EduTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBB4EA32B2B59E700041786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBB4EA52B2B59E700041786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +157,8 @@
 				4BBB4EA72B2B59E700041786 /* SignInViewController.swift */,
 				4B857D022B4B2BD900E2D916 /* EduTaskerTabBarController.swift */,
 				4B857D042B4B2CEA00E2D916 /* GradeViewController.swift */,
+				4B857D192B4B86FC00E2D916 /* ProfileViewController.swift */,
+				4B857D212B4C936200E2D916 /* SubjectViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +168,9 @@
 			children = (
 				4B4DDBC82B4A772D00E4B191 /* Auxiliary */,
 				4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */,
+				4B857D152B4B6CC800E2D916 /* GradeView.swift */,
+				4B857D1B2B4B871700E2D916 /* ProfileView.swift */,
+				4B857D232B4C93DB00E2D916 /* SubjectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4DDBC22B4A72A400E4B191 /* SignInViewModel.swift */,
+				4B857D0F2B4B651B00E2D916 /* GradeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,6 +200,7 @@
 				4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */,
 				4B857CF42B4B151000E2D916 /* HostingController.swift */,
 				4B857D002B4B220000E2D916 /* ViewController.swift */,
+				4B857D172B4B7F7F00E2D916 /* Double.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4DDBB32B4A635F00E4B191 /* SignInService.swift */,
+				4B857D0B2B4B527800E2D916 /* GradeService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -200,6 +230,9 @@
 			children = (
 				4B4DDBB62B4A63BC00E4B191 /* UFGSessionInfo.swift */,
 				4B4DDBC02B4A697A00E4B191 /* UFGStudentInfo.swift */,
+				4B857D092B4B51E300E2D916 /* UFGCiclo.swift */,
+				4B857D0D2B4B564300E2D916 /* UFGStudent.swift */,
+				4B857D112B4B66A300E2D916 /* UFGCum.swift */,
 			);
 			path = UFG;
 			sourceTree = "<group>";
@@ -220,13 +253,6 @@
 				4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */,
 			);
 			path = Auxiliary;
-			sourceTree = "<group>";
-		};
-		4B857CF12B4B0FE300E2D916 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		4B857CF62B4B19A300E2D916 /* Modal */ = {
@@ -279,7 +305,6 @@
 			children = (
 				4B857CF22B4B0FF900E2D916 /* Assests.swift */,
 				4B4DDBAF2B4A61C200E4B191 /* Extension */,
-				4B857CF12B4B0FE300E2D916 /* Shared */,
 				4B4DDBB52B4A638E00E4B191 /* Model */,
 				4B4DDBB22B4A632F00E4B191 /* Service */,
 				4B4DDBA92B4A57DD00E4B191 /* ViewModel */,
@@ -450,16 +475,22 @@
 			files = (
 				4B4DDBAE2B4A5C8500E4B191 /* MoodleEndpoint.swift in Sources */,
 				4BBB4EA82B2B59E700041786 /* SignInViewController.swift in Sources */,
+				4B857D182B4B7F7F00E2D916 /* Double.swift in Sources */,
 				4B857D032B4B2BD900E2D916 /* EduTaskerTabBarController.swift in Sources */,
 				4B4DDBBD2B4A656000E4B191 /* MoodleSingIn.swift in Sources */,
 				4B857CF32B4B0FF900E2D916 /* Assests.swift in Sources */,
+				4B857D1A2B4B86FC00E2D916 /* ProfileViewController.swift in Sources */,
+				4B857D242B4C93DB00E2D916 /* SubjectView.swift in Sources */,
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
 				4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */,
+				4B857D0C2B4B527800E2D916 /* GradeService.swift in Sources */,
+				4B857D0E2B4B564300E2D916 /* UFGStudent.swift in Sources */,
 				4B4DDBB72B4A63BC00E4B191 /* UFGSessionInfo.swift in Sources */,
 				4B857D012B4B220000E2D916 /* ViewController.swift in Sources */,
 				4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */,
 				4BBB4EA42B2B59E700041786 /* AppDelegate.swift in Sources */,
 				4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */,
+				4B857D162B4B6CC800E2D916 /* GradeView.swift in Sources */,
 				4B4DDBC32B4A72A400E4B191 /* SignInViewModel.swift in Sources */,
 				4B857CF52B4B151000E2D916 /* HostingController.swift in Sources */,
 				4B4DDBBF2B4A65B800E4B191 /* Student.swift in Sources */,
@@ -468,9 +499,14 @@
 				4B4DDBBB2B4A651800E4B191 /* SignInPayload.swift in Sources */,
 				4B4DDBB42B4A635F00E4B191 /* SignInService.swift in Sources */,
 				4B857D052B4B2CEA00E2D916 /* GradeViewController.swift in Sources */,
+				4B857D102B4B651B00E2D916 /* GradeViewModel.swift in Sources */,
+				4B857D1C2B4B871700E2D916 /* ProfileView.swift in Sources */,
 				4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */,
 				4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */,
 				4B4DDBC12B4A697A00E4B191 /* UFGStudentInfo.swift in Sources */,
+				4B857D122B4B66A300E2D916 /* UFGCum.swift in Sources */,
+				4B857D0A2B4B51E300E2D916 /* UFGCiclo.swift in Sources */,
+				4B857D222B4C936200E2D916 /* SubjectViewController.swift in Sources */,
 				4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */,
 				4B857CF82B4B19D200E2D916 /* ErrorModalView.swift in Sources */,
 			);

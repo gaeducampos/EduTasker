@@ -1,12 +1,19 @@
 import Foundation
+import JWTDecode
 import Combine
 
 struct NetworkProvider {
     static var studentInfo = "Student"
     
+    static var student: Student? {
+        guard let student = UserDefaults.standard.auth(forKey: Self.studentInfo) else { return nil }
+        return student
+    }
+    
     enum ErrorHandler: Error {
         case failedRequest(statusCode: Int)
         case unexpectedResponseType
+        case failedGettingStudent
         
         var errorMessage: String {
             switch self {
@@ -14,6 +21,8 @@ struct NetworkProvider {
                 return "Request Failed with status code: \(statusCode)"
             case .unexpectedResponseType:
                 return "Unexpected Response Type"
+            case .failedGettingStudent:
+                return "Student not stored in user defaults"
             }
         }
     }

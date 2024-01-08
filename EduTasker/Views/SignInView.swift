@@ -36,6 +36,7 @@ struct SignInView: View {
             Text("Inicia Sesión con tu cuenta UFG")
                 .font(.custom("Arial", size: 27))
                 .fontWeight(.semibold)
+                .minimumScaleFactor(0.1)
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 20)
             
@@ -58,6 +59,7 @@ struct SignInView: View {
                         }
                 })
                 .disabled(username.isEmpty || password.isEmpty)
+                .padding(.bottom)
                 
             }
             .padding(.horizontal, 20)
