@@ -65,6 +65,21 @@
                   endingLineNumber = "33"
                   offsetFromSymbolStart = "1012">
                </Location>
+               <Location
+                  uuid = "50B8CBB7-258D-476C-99BA-4F27826B967D - acecb14e94425576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.presentSessionExperiendAlert() -&gt; ()"
+                  moduleName = "EduTasker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcampos/Desktop/projects/EduTasker/EduTasker/Extension/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1015">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

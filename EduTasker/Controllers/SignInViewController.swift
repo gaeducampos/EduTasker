@@ -7,19 +7,19 @@ class SignInViewController: UIViewController {
     private var cancellables = Set<AnyCancellable>()
     
     lazy var signInHostingController: UIHostingController = {
-        let hostingController = UIHostingController(rootView: SignInView(viewModel: self.viewModel), ignoreSafeArea: true)
+        let hostingController = UIHostingController(rootView: SignInView(viewModel: self.viewModel), ignoreSafeArea: false)
         hostingController.view.translatesAutoresizingMaskIntoConstraints = false
         return hostingController
     }()
 
     override func viewDidLoad() {
+        super.viewDidLoad()
         addChild(signInHostingController)
         view.addSubview(signInHostingController.view)
         view.backgroundColor = .white
         
         setupConstraints()
         bindings()
-        super.viewDidLoad()
         
     }
     

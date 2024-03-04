@@ -68,10 +68,10 @@ struct SubjectView: View {
                         
                         ScrollView {
                             VStack(spacing: 10) {
-                                GradeCell(labGrade: subject.lab1.rawValue, examGrade: subject.exa1.rawValue, title: "Primer Periodo")
-                                GradeCell(labGrade: subject.lab2.rawValue, examGrade: subject.exa2.rawValue, title: "Segundo Periodo")
-                                GradeCell(labGrade: subject.lab3.rawValue, examGrade: subject.exa3.rawValue, title: "Tercer Periodo")
-                                GradeCell(labGrade: subject.lab4.rawValue, examGrade: subject.exa4.rawValue, title: "Cuarto Periodo")
+                                GradeCell(labGrade: subject.lab1 ?? 0.0, examGrade: subject.exa1 ?? 0.0, title: "Primer Periodo")
+                                GradeCell(labGrade: subject.lab2 ?? 0.0, examGrade: subject.exa2 ?? 0.0, title: "Segundo Periodo")
+                                GradeCell(labGrade: subject.lab3 ?? 0.0, examGrade: subject.exa3 ?? 0.0, title: "Tercer Periodo")
+                                GradeCell(labGrade: subject.lab4 ?? 0.0, examGrade: subject.exa4 ?? 0.0, title: "Cuarto Periodo")
                             }
                             .padding(.horizontal)
                         }

@@ -22,8 +22,9 @@
 		4B4DDBC72B4A75CA00E4B191 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */; };
 		4B4DDBCA2B4A786100E4B191 /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */; };
 		4B4DDBCC2B4A7E8E00E4B191 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */; };
+		4B6195B32B8CE6EF00A89D02 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6195B22B8CE6EF00A89D02 /* ScrollView.swift */; };
+		4B6195B52B8CF7C000A89D02 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6195B42B8CF7C000A89D02 /* URLRequest.swift */; };
 		4B857CF32B4B0FF900E2D916 /* Assests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF22B4B0FF900E2D916 /* Assests.swift */; };
-		4B857CF52B4B151000E2D916 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF42B4B151000E2D916 /* HostingController.swift */; };
 		4B857CF82B4B19D200E2D916 /* ErrorModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */; };
 		4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */; };
 		4B857D012B4B220000E2D916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857D002B4B220000E2D916 /* ViewController.swift */; };
@@ -84,8 +85,9 @@
 		4B4DDBC62B4A75CA00E4B191 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
 		4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4B6195B22B8CE6EF00A89D02 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		4B6195B42B8CF7C000A89D02 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
 		4B857CF22B4B0FF900E2D916 /* Assests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assests.swift; sourceTree = "<group>"; };
-		4B857CF42B4B151000E2D916 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		4B857CF72B4B19D200E2D916 /* ErrorModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalView.swift; sourceTree = "<group>"; };
 		4B857CFB2B4B1E5E00E2D916 /* ErrorModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalViewController.swift; sourceTree = "<group>"; };
 		4B857D002B4B220000E2D916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -198,9 +200,9 @@
 			children = (
 				4B4DDBB02B4A61D200E4B191 /* URL.swift */,
 				4B4DDBC42B4A750B00E4B191 /* UserDefaults.swift */,
-				4B857CF42B4B151000E2D916 /* HostingController.swift */,
 				4B857D002B4B220000E2D916 /* ViewController.swift */,
 				4B857D172B4B7F7F00E2D916 /* Double.swift */,
+				4B6195B42B8CF7C000A89D02 /* URLRequest.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -248,11 +250,20 @@
 		4B4DDBC82B4A772D00E4B191 /* Auxiliary */ = {
 			isa = PBXGroup;
 			children = (
+				4B6195B12B8CE6DE00A89D02 /* Modifiers */,
 				4B857CF62B4B19A300E2D916 /* Modal */,
 				4B4DDBC92B4A786100E4B191 /* TextFieldRepresentable.swift */,
 				4B4DDBCB2B4A7E8E00E4B191 /* LoadingView.swift */,
 			);
 			path = Auxiliary;
+			sourceTree = "<group>";
+		};
+		4B6195B12B8CE6DE00A89D02 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6195B22B8CE6EF00A89D02 /* ScrollView.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		4B857CF62B4B19A300E2D916 /* Modal */ = {
@@ -484,7 +495,9 @@
 				4B4DDBA62B4A51C300E4B191 /* NetworkProvider.swift in Sources */,
 				4B857CFC2B4B1E5E00E2D916 /* ErrorModalViewController.swift in Sources */,
 				4B857D0C2B4B527800E2D916 /* GradeService.swift in Sources */,
+				4B6195B52B8CF7C000A89D02 /* URLRequest.swift in Sources */,
 				4B857D0E2B4B564300E2D916 /* UFGStudent.swift in Sources */,
+				4B6195B32B8CE6EF00A89D02 /* ScrollView.swift in Sources */,
 				4B4DDBB72B4A63BC00E4B191 /* UFGSessionInfo.swift in Sources */,
 				4B857D012B4B220000E2D916 /* ViewController.swift in Sources */,
 				4B4DDBB12B4A61D200E4B191 /* URL.swift in Sources */,
@@ -492,7 +505,6 @@
 				4BBB4EA62B2B59E700041786 /* SceneDelegate.swift in Sources */,
 				4B857D162B4B6CC800E2D916 /* GradeView.swift in Sources */,
 				4B4DDBC32B4A72A400E4B191 /* SignInViewModel.swift in Sources */,
-				4B857CF52B4B151000E2D916 /* HostingController.swift in Sources */,
 				4B4DDBBF2B4A65B800E4B191 /* Student.swift in Sources */,
 				4B4DDBAB2B4A588900E4B191 /* UFGEndpoint.swift in Sources */,
 				4B4DDBC52B4A750B00E4B191 /* UserDefaults.swift in Sources */,
@@ -608,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -665,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

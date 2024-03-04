@@ -8,5 +8,6 @@ struct UFGCum: Decodable {
     enum CustomType: String, Decodable {
         case level
         case cum
+        case promedio
     }
 }

@@ -22,7 +22,7 @@ struct SignInView: View {
     }
     
     var body: some View {
-        VStack {
+        ScrollView {
             Text("Bienvenido a EduTasker")
                 .font(.custom("Arial", size: 27))
                 .fontWeight(.semibold)
@@ -63,10 +63,8 @@ struct SignInView: View {
                 
             }
             .padding(.horizontal, 20)
-            
-            Spacer()
-        
         }
+        .disableBounces()
         .overlay {
             if viewModel.isloading {
                 LoadingView()

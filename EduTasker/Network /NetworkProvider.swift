@@ -40,7 +40,7 @@ struct NetworkProvider {
                 guard (200...299).contains(response.statusCode) else {
                     throw ErrorHandler.failedRequest(statusCode: response.statusCode)
                 }
-                
+
                 return data
                 
             }
